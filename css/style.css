@@ -1,6 +1,27 @@
 body {
+    font-family: 'Montserrat', sans-serif;
     background: #F5F7FA;
 }
-li{
-    background-color: chocolate;
+.about-me-profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+
+.main-conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.main-content-section{
+    display: flex;
+    flex-direction: column;
+}
+.asidebar-section{
+    width: 370px;
+    background-color: #1E2939;
 }
