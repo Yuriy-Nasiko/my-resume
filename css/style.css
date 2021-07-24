@@ -1,5 +1,6 @@
-body  {
-background-color: rgb(51, 38, 27);
-color: rgb(163, 27, 145);
+body {
+    background: #F5F7FA;
 }
-   
+li{
+    background-color: chocolate;
+}
