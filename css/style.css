@@ -11,6 +11,7 @@ body {
   width: 1200px;
   background-color: #fff;
   margin: auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-content-section {
@@ -99,6 +100,9 @@ body {
 
 /* My work experience section */
 
+.work-experience {
+  margin-bottom: 40px;
+}
 .work-experience-company {
   font-style: normal;
   font-weight: bold;
@@ -143,20 +147,22 @@ body {
 }
 
 /* Education */
+
 .my-education-university {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
 }
-.management {
+.managment {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
   color: #000;
+  margin-bottom: 10px;
 }
 
 /* sidebar cection */
@@ -191,7 +197,16 @@ body {
   color: #fff;
   margin-right: 5px;
 }
-.contact-section-link {
+
+.contact-section-link-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8e949c;
+  text-decoration-line: none;
+}
+.contact-section-link-email {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
